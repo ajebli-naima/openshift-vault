@@ -1,10 +1,10 @@
 path "database/creds/backend" {
     capabilities = ["read", "list"]
 }
-path "secret/backend" { 
+path "cubbyhole/backend" { 
     capabilities = ["read", "list"] 
 }
-path "secret/application" { 
+path "cubbyhole/application" { 
     capabilities = ["read", "list"] 
 }
 path "sys/leases/renew" {
