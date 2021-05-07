@@ -21,7 +21,7 @@ public class ValueController {
     @org.springframework.beans.factory.annotation.Value("${password:password}")
 	String password;
 
-	@RequestMapping("/cubbyhole")
+	@RequestMapping("/secret")
 	public String secret() {
 		return "my secret is" + password;
     }
