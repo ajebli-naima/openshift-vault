@@ -18,7 +18,7 @@ public class ValueController {
     @Autowired
     private ValueRepo valueRepo;
 
-    @org.springframework.beans.factory.annotation.Value("${password:password}")
+    @org.springframework.beans.factory.annotation.Value("${password}")
 	String password;
 
 	@RequestMapping("/secret")
